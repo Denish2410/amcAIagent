@@ -3,3 +3,6 @@ __pycache__/
 data/amc_mock.db
 data/uploads/
 *_geo.jpg
+
+frontend/node_modules/
+frontend/dist/

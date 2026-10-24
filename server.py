@@ -183,7 +183,7 @@ def list_complaints(user_id: Optional[str] = None, limit: int = 50):
 def advance_complaint_status(tracking_id: str):
     """Advance a complaint through its lifecycle (FILED -> ASSIGNED -> IN_PROGRESS -> RESOLVED)."""
     res = tools.advance_status(tracking_id)
-    if not res.get("advanced"):
+    if not res.get("ok"):
         raise HTTPException(status_code=400, detail=res.get("reason", "Cannot advance complaint"))
     return res
 
@@ -295,3 +295,11 @@ def get_sample_image(filename: str):
     if not p.exists():
         raise HTTPException(status_code=404, detail="Sample photo not found")
     return FileResponse(p, media_type="image/jpeg")
+
+
+from fastapi.staticfiles import StaticFiles
+
+# Mount static React frontend if built
+dist_dir = Path(__file__).parent / "frontend" / "dist"
+if dist_dir.exists():
+    app.mount("/", StaticFiles(directory=str(dist_dir), html=True), name="frontend")
