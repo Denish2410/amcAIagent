@@ -1,0 +1,62 @@
+{
+  "_note": "MOCK data for a hackathon demo. Ward centroids are approximate and ward IDs are invented. Not an official AMC dataset.",
+  "zones": {
+    "WZ":  "West Zone",
+    "NWZ": "North West Zone",
+    "SWZ": "South West Zone",
+    "CZ":  "Central Zone",
+    "NZ":  "North Zone",
+    "EZ":  "East Zone",
+    "SZ":  "South Zone"
+  },
+  "wards": [
+    {"id": "W01", "name": "Navrangpura",  "zone": "WZ",  "lat": 23.0365, "lon": 72.5611, "aliases": ["navrangpura", "cg road", "c g road", "gujarat university", "commerce six roads", "stadium six roads"]},
+    {"id": "W02", "name": "Paldi",        "zone": "WZ",  "lat": 23.0120, "lon": 72.5620, "aliases": ["paldi", "ellisbridge", "ellis bridge", "law garden", "nid", "town hall"]},
+    {"id": "W03", "name": "Vasna",        "zone": "WZ",  "lat": 22.9990, "lon": 72.5480, "aliases": ["vasna", "vasna barrage"]},
+    {"id": "W04", "name": "Naranpura",    "zone": "WZ",  "lat": 23.0580, "lon": 72.5560, "aliases": ["naranpura", "ankur", "pragatinagar", "pragati nagar"]},
+    {"id": "W05", "name": "Sabarmati",    "zone": "WZ",  "lat": 23.0900, "lon": 72.5850, "aliases": ["sabarmati", "d cabin", "d-cabin", "dharmnagar"]},
+    {"id": "W06", "name": "Chandkheda",   "zone": "WZ",  "lat": 23.1100, "lon": 72.5850, "aliases": ["chandkheda", "motera", "motera stadium", "visat"]},
+    {"id": "W07", "name": "Nava Vadaj",   "zone": "WZ",  "lat": 23.0650, "lon": 72.5700, "aliases": ["vadaj", "nava vadaj", "rto circle", "akhbarnagar"]},
+    {"id": "W08", "name": "Stadium",      "zone": "WZ",  "lat": 23.0480, "lon": 72.5700, "aliases": ["usmanpura", "stadium", "income tax", "navjivan", "ashram road"]},
+
+    {"id": "W09", "name": "Bodakdev",     "zone": "NWZ", "lat": 23.0400, "lon": 72.5100, "aliases": ["bodakdev", "vastrapur", "judges bungalow", "sindhu bhavan", "drive in", "drive-in", "vastrapur lake"]},
+    {"id": "W10", "name": "Thaltej",      "zone": "NWZ", "lat": 23.0500, "lon": 72.5000, "aliases": ["thaltej", "sg highway", "s g highway", "hebatpur", "shilaj"]},
+    {"id": "W11", "name": "Ghatlodia",    "zone": "NWZ", "lat": 23.0680, "lon": 72.5410, "aliases": ["ghatlodia", "kk nagar", "k k nagar", "memnagar"]},
+    {"id": "W12", "name": "Gota",         "zone": "NWZ", "lat": 23.1000, "lon": 72.5400, "aliases": ["gota", "vande mataram", "sola", "science city"]},
+    {"id": "W13", "name": "Chandlodia",   "zone": "NWZ", "lat": 23.0750, "lon": 72.5550, "aliases": ["chandlodia", "ranip"]},
+
+    {"id": "W14", "name": "Jodhpur",      "zone": "SWZ", "lat": 23.0160, "lon": 72.5250, "aliases": ["jodhpur", "satellite", "prahladnagar", "prahlad nagar", "shyamal", "anandnagar", "anand nagar", "iscon", "iskcon"]},
+    {"id": "W15", "name": "Vejalpur",     "zone": "SWZ", "lat": 23.0000, "lon": 72.5180, "aliases": ["vejalpur", "jivraj park", "jivraj"]},
+    {"id": "W16", "name": "Sarkhej",      "zone": "SWZ", "lat": 22.9850, "lon": 72.5000, "aliases": ["sarkhej", "makarba", "juhapura"]},
+
+    {"id": "W17", "name": "Khadia",       "zone": "CZ",  "lat": 23.0220, "lon": 72.5900, "aliases": ["khadia", "raipur", "old city", "lal darwaja", "lal darwaza", "bhadra"]},
+    {"id": "W18", "name": "Jamalpur",     "zone": "CZ",  "lat": 23.0150, "lon": 72.5850, "aliases": ["jamalpur", "astodia"]},
+    {"id": "W19", "name": "Shahpur",      "zone": "CZ",  "lat": 23.0350, "lon": 72.5780, "aliases": ["shahpur", "delhi darwaja", "delhi darwaza"]},
+    {"id": "W20", "name": "Shahibaug",    "zone": "CZ",  "lat": 23.0550, "lon": 72.5950, "aliases": ["shahibaug", "shahibag", "asarwa", "civil hospital"]},
+
+    {"id": "W21", "name": "Bapunagar",    "zone": "EZ",  "lat": 23.0400, "lon": 72.6300, "aliases": ["bapunagar", "rakhial"]},
+    {"id": "W22", "name": "Nikol",        "zone": "EZ",  "lat": 23.0450, "lon": 72.6650, "aliases": ["nikol", "thakkarnagar", "thakkar nagar"]},
+    {"id": "W23", "name": "Vastral",      "zone": "EZ",  "lat": 23.0050, "lon": 72.6600, "aliases": ["vastral", "ramol", "ctm"]},
+    {"id": "W24", "name": "Odhav",        "zone": "EZ",  "lat": 23.0280, "lon": 72.6650, "aliases": ["odhav", "odhav gidc"]},
+    {"id": "W25", "name": "Amraiwadi",    "zone": "EZ",  "lat": 23.0050, "lon": 72.6250, "aliases": ["amraiwadi", "rabari colony"]},
+
+    {"id": "W26", "name": "Naroda",       "zone": "NZ",  "lat": 23.0700, "lon": 72.6550, "aliases": ["naroda", "naroda gidc", "naroda patiya"]},
+    {"id": "W27", "name": "Sardarnagar",  "zone": "NZ",  "lat": 23.0800, "lon": 72.6300, "aliases": ["sardarnagar", "sardar nagar", "airport", "hansol"]},
+    {"id": "W28", "name": "Saraspur",     "zone": "NZ",  "lat": 23.0350, "lon": 72.6100, "aliases": ["saraspur", "kalupur", "railway station", "kalupur station"]},
+
+    {"id": "W29", "name": "Maninagar",    "zone": "SZ",  "lat": 22.9970, "lon": 72.6020, "aliases": ["maninagar", "kankaria", "kankaria lake", "jawahar chowk"]},
+    {"id": "W30", "name": "Isanpur",      "zone": "SZ",  "lat": 22.9750, "lon": 72.5950, "aliases": ["isanpur", "ghodasar"]},
+    {"id": "W31", "name": "Vatva",        "zone": "SZ",  "lat": 22.9550, "lon": 72.6250, "aliases": ["vatva", "vatva gidc"]},
+    {"id": "W32", "name": "Narol",        "zone": "SZ",  "lat": 22.9700, "lon": 72.5900, "aliases": ["narol", "lambha"]},
+    {"id": "W33", "name": "Behrampura",   "zone": "SZ",  "lat": 23.0000, "lon": 72.5800, "aliases": ["behrampura", "danilimda"]}
+  ],
+  "departments": [
+    {"code": "RDB", "name": "Roads & Buildings (Engineering)",   "issues": ["pothole", "damaged_road", "broken_footpath"], "sla_days": 7},
+    {"code": "SWM", "name": "Solid Waste Management",            "issues": ["garbage", "overflowing_bin", "dead_animal"],  "sla_days": 2},
+    {"code": "LGT", "name": "Light Department (Street Lights)",   "issues": ["streetlight"],                                 "sla_days": 3},
+    {"code": "SWD", "name": "Storm Water Drainage",              "issues": ["water_logging", "blocked_drain"],              "sla_days": 2},
+    {"code": "SEW", "name": "Drainage & Sewerage",               "issues": ["sewage_overflow", "open_manhole"],             "sla_days": 3},
+    {"code": "WTR", "name": "Water Supply",                      "issues": ["water_leakage"],                               "sla_days": 3},
+    {"code": "GEN", "name": "Ward Office (General Grievances)",  "issues": ["other"],                                       "sla_days": 7}
+  ]
+}
